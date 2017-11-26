@@ -1,2 +1,2 @@
 Branch: airdrop
-Commit: 918bf3a3123ddaf9c5c83edb9f2d5abd6f1068f8
+Commit: 6218ef9763eadd442491bd902841e9805f17f478
