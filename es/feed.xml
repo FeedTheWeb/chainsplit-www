@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://chainspl.it/chainsplit-www/es/feed.xml" rel="self" type="application/atom+xml" /><link href="http://chainspl.it/chainsplit-www/es/" rel="alternate" type="text/html" /><updated>2017-11-27T14:10:53+01:00</updated><id>http://chainspl.it/chainsplit-www/</id><title type="html">chainspl.it</title><subtitle>An open source community-based site helping crypto users, holders, &amp; businesses safely deal with forks.</subtitle><entry><title type="html">SuperBitcoin</title><link href="http://chainspl.it/chainsplit-www/es/2017/11/24/superbitcoin.html" rel="alternate" type="text/html" title="SuperBitcoin" /><published>2017-11-24T00:00:00+01:00</published><updated>2017-11-24T00:00:00+01:00</updated><id>http://chainspl.it/chainsplit-www/2017/11/24/superbitcoin</id><content type="html" xml:base="http://chainspl.it/chainsplit-www/2017/11/24/superbitcoin.html">&lt;h2 id=&quot;superbitcoin&quot;&gt;SuperBitcoin&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://chainspl.it/chainsplit-www/es/feed.xml" rel="self" type="application/atom+xml" /><link href="http://chainspl.it/chainsplit-www/es/" rel="alternate" type="text/html" /><updated>2017-11-27T14:34:27+01:00</updated><id>http://chainspl.it/chainsplit-www/</id><title type="html">chainspl.it</title><subtitle>An open source community-based site helping crypto users, holders, &amp; businesses safely deal with forks.</subtitle><entry><title type="html">SuperBitcoin</title><link href="http://chainspl.it/chainsplit-www/es/2017/11/24/superbitcoin.html" rel="alternate" type="text/html" title="SuperBitcoin" /><published>2017-11-24T00:00:00+01:00</published><updated>2017-11-24T00:00:00+01:00</updated><id>http://chainspl.it/chainsplit-www/2017/11/24/superbitcoin</id><content type="html" xml:base="http://chainspl.it/chainsplit-www/2017/11/24/superbitcoin.html">&lt;h2 id=&quot;superbitcoin&quot;&gt;SuperBitcoin&lt;/h2&gt;
 
 &lt;table&gt;
     &lt;thead&gt;
@@ -16,6 +16,8 @@
         &lt;/tr&gt;
     &lt;/tbody&gt;
 &lt;/table&gt;
+
+&lt;h4 id=&quot;technical-info&quot;&gt;Technical Info:&lt;/h4&gt;
 
 &lt;p&gt;Address Format:&lt;/p&gt;
 
@@ -47,11 +49,17 @@
     &lt;/tbody&gt;
 &lt;/table&gt;
 
+&lt;h4 id=&quot;warnings&quot;&gt;Warnings:&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://bitcoinist.com/bitcoin-gold-releases-statement-mybtgwallet-scam/&quot;&gt;MyBTGWallet scam&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;technical-info&quot;&gt;Technical Info:&lt;/h4&gt;
+
 &lt;p&gt;Address Format:&lt;/p&gt;
 
-&lt;p&gt;sighash changes - https://github.com/BTCGPU/BTCGPU/pull/109/&lt;/p&gt;
+&lt;p&gt;sighash changes - &lt;a href=&quot;https://github.com/BTCGPU/BTCGPU/pull/109/&quot;&gt;&lt;i class=&quot;fa fa-external-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;segwit address support - https://github.com/BTCGPU/BTCGPU/issues/215&lt;/p&gt;
+&lt;p&gt;segwit address support - &lt;a href=&quot;https://github.com/BTCGPU/BTCGPU/issues/215&quot;&gt;&lt;i class=&quot;fa fa-external-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;&quot;&gt;Project website &lt;i class=&quot;fa fa-external-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">BitcoinGold</summary></entry><entry><title type="html">Example content</title><link href="http://chainspl.it/chainsplit-www/es/example/2017/11/24/example.html" rel="alternate" type="text/html" title="Example content" /><published>2017-11-24T00:00:00+01:00</published><updated>2017-11-24T00:00:00+01:00</updated><id>http://chainspl.it/chainsplit-www/example/2017/11/24/example</id><content type="html" xml:base="http://chainspl.it/chainsplit-www/example/2017/11/24/example.html">&lt;div class=&quot;message&quot;&gt;
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
@@ -197,6 +205,12 @@
     &lt;/tbody&gt;
 &lt;/table&gt;
 
+&lt;h3 id=&quot;warnings&quot;&gt;Warnings:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.com/@btcblooddiamond/bitcoin-diamond-is-a-scam-of-epic-proportions-7d7908c43c22&quot;&gt;Diamond is scam of epic proportions&lt;/a&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;technical-info&quot;&gt;Technical Info:&lt;/h5&gt;
+
 &lt;p&gt;Address Format:&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/Bitcoin-Diamond/BitcoinDiamond&quot;&gt;Repository &lt;i class=&quot;fa fa-external-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
@@ -250,6 +264,8 @@
         &lt;/tr&gt;
     &lt;/tbody&gt;
 &lt;/table&gt;
+
+&lt;h4 id=&quot;technical-info&quot;&gt;Technical Info:&lt;/h4&gt;
 
 &lt;p&gt;Address Format:&lt;/p&gt;
 
