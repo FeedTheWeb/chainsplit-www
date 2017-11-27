@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://chainspl.it/chainsplit-www/feed.xml" rel="self" type="application/atom+xml" /><link href="http://chainspl.it/chainsplit-www/" rel="alternate" type="text/html" /><updated>2017-11-27T14:54:40+01:00</updated><id>http://chainspl.it/chainsplit-www/</id><title type="html">chainspl.it</title><subtitle>An open source community-based site helping crypto users, holders, &amp; businesses safely deal with forks.</subtitle><entry><title type="html">SuperBitcoin</title><link href="http://chainspl.it/chainsplit-www/2017/11/24/superbitcoin.html" rel="alternate" type="text/html" title="SuperBitcoin" /><published>2017-11-24T00:00:00+01:00</published><updated>2017-11-24T00:00:00+01:00</updated><id>http://chainspl.it/chainsplit-www/2017/11/24/superbitcoin</id><content type="html" xml:base="http://chainspl.it/chainsplit-www/2017/11/24/superbitcoin.html">&lt;p&gt;&lt;a href=&quot;/&quot;&gt;Home/&lt;/a&gt;SuperBitcoin&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://chainspl.it/chainsplit-www/feed.xml" rel="self" type="application/atom+xml" /><link href="http://chainspl.it/chainsplit-www/" rel="alternate" type="text/html" /><updated>2017-11-27T15:02:38+01:00</updated><id>http://chainspl.it/chainsplit-www/</id><title type="html">chainspl.it</title><subtitle>An open source community-based site helping crypto users, holders, &amp; businesses safely deal with forks.</subtitle><entry><title type="html">SuperBitcoin</title><link href="http://chainspl.it/chainsplit-www/2017/11/24/superbitcoin.html" rel="alternate" type="text/html" title="SuperBitcoin" /><published>2017-11-24T00:00:00+01:00</published><updated>2017-11-24T00:00:00+01:00</updated><id>http://chainspl.it/chainsplit-www/2017/11/24/superbitcoin</id><content type="html" xml:base="http://chainspl.it/chainsplit-www/2017/11/24/superbitcoin.html">&lt;p&gt;&lt;a href=&quot;/&quot;&gt;Home/&lt;/a&gt;SuperBitcoin&lt;/p&gt;
 
 &lt;h2 id=&quot;superbitcoin&quot;&gt;SuperBitcoin&lt;/h2&gt;
 
@@ -21,7 +21,7 @@
 
 &lt;h4 id=&quot;technical-info&quot;&gt;Technical Info:&lt;/h4&gt;
 
-&lt;p&gt;Address Format:&lt;/p&gt;
+&lt;p&gt;Address Format: 2m&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://supersmartbitcoin.com/&quot;&gt;Project website &lt;i class=&quot;fa fa-external-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Home/SuperBitcoin</summary></entry><entry><title type="html">BitcoinGold</title><link href="http://chainspl.it/chainsplit-www/2017/11/24/gold.html" rel="alternate" type="text/html" title="BitcoinGold" /><published>2017-11-24T00:00:00+01:00</published><updated>2017-11-24T00:00:00+01:00</updated><id>http://chainspl.it/chainsplit-www/2017/11/24/gold</id><content type="html" xml:base="http://chainspl.it/chainsplit-www/2017/11/24/gold.html">&lt;p&gt;&lt;a href=&quot;/&quot;&gt;Home/&lt;/a&gt;BitcoinGold&lt;/p&gt;
 
@@ -57,7 +57,7 @@
 
 &lt;h4 id=&quot;technical-info&quot;&gt;Technical Info:&lt;/h4&gt;
 
-&lt;p&gt;Address Format:&lt;/p&gt;
+&lt;p&gt;Address Format: btg&lt;/p&gt;
 
 &lt;p&gt;sighash changes - &lt;a href=&quot;https://github.com/BTCGPU/BTCGPU/pull/109/&quot;&gt;&lt;i class=&quot;fa fa-external-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -244,7 +244,9 @@
     &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;Address Format:&lt;/p&gt;
+&lt;h4 id=&quot;technical-info&quot;&gt;Technical Info:&lt;/h4&gt;
+
+&lt;p&gt;Address Format: bitcoin&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;&quot;&gt;Repository &lt;i class=&quot;fa fa-external-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -275,11 +277,17 @@
 
 &lt;h4 id=&quot;technical-info&quot;&gt;Technical Info:&lt;/h4&gt;
 
-&lt;p&gt;Address Format:&lt;/p&gt;
-
-&lt;p&gt;second hard fork spec - &lt;a href=&quot;https://github.com/Bitcoin-UAHF/spec/blob/master/nov-13-hardfork-spec.md&quot;&gt;&lt;i class=&quot;fa fa-external-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;new address format proposal - &lt;a href=&quot;https://github.com/Bitcoin-UAHF/spec/blob/master/cashaddr.md&quot;&gt; &lt;i class=&quot;fa fa-external-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Address Format: bitcoin (bech32 in discussion)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;second hard fork spec - &lt;a href=&quot;https://github.com/Bitcoin-UAHF/spec/blob/master/nov-13-hardfork-spec.md&quot;&gt;&lt;i class=&quot;fa fa-external-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;new address format proposal - &lt;a href=&quot;https://github.com/Bitcoin-UAHF/spec/blob/master/cashaddr.md&quot;&gt; &lt;i class=&quot;fa fa-external-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;&lt;a href=&quot;&quot;&gt;Repository &lt;i class=&quot;fa fa-external-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 
