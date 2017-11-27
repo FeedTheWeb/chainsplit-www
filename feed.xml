@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://chainspl.it/chainsplit-www/feed.xml" rel="self" type="application/atom+xml" /><link href="http://chainspl.it/chainsplit-www/" rel="alternate" type="text/html" /><updated>2017-11-27T14:34:27+01:00</updated><id>http://chainspl.it/chainsplit-www/</id><title type="html">chainspl.it</title><subtitle>An open source community-based site helping crypto users, holders, &amp; businesses safely deal with forks.</subtitle><entry><title type="html">SuperBitcoin</title><link href="http://chainspl.it/chainsplit-www/2017/11/24/superbitcoin.html" rel="alternate" type="text/html" title="SuperBitcoin" /><published>2017-11-24T00:00:00+01:00</published><updated>2017-11-24T00:00:00+01:00</updated><id>http://chainspl.it/chainsplit-www/2017/11/24/superbitcoin</id><content type="html" xml:base="http://chainspl.it/chainsplit-www/2017/11/24/superbitcoin.html">&lt;h2 id=&quot;superbitcoin&quot;&gt;SuperBitcoin&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://chainspl.it/chainsplit-www/feed.xml" rel="self" type="application/atom+xml" /><link href="http://chainspl.it/chainsplit-www/" rel="alternate" type="text/html" /><updated>2017-11-27T14:54:40+01:00</updated><id>http://chainspl.it/chainsplit-www/</id><title type="html">chainspl.it</title><subtitle>An open source community-based site helping crypto users, holders, &amp; businesses safely deal with forks.</subtitle><entry><title type="html">SuperBitcoin</title><link href="http://chainspl.it/chainsplit-www/2017/11/24/superbitcoin.html" rel="alternate" type="text/html" title="SuperBitcoin" /><published>2017-11-24T00:00:00+01:00</published><updated>2017-11-24T00:00:00+01:00</updated><id>http://chainspl.it/chainsplit-www/2017/11/24/superbitcoin</id><content type="html" xml:base="http://chainspl.it/chainsplit-www/2017/11/24/superbitcoin.html">&lt;p&gt;&lt;a href=&quot;/&quot;&gt;Home/&lt;/a&gt;SuperBitcoin&lt;/p&gt;
+
+&lt;h2 id=&quot;superbitcoin&quot;&gt;SuperBitcoin&lt;/h2&gt;
 
 &lt;table&gt;
     &lt;thead&gt;
@@ -21,9 +23,9 @@
 
 &lt;p&gt;Address Format:&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;&quot;&gt;Repository &lt;i class=&quot;fa fa-external-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://supersmartbitcoin.com/&quot;&gt;Project website &lt;i class=&quot;fa fa-external-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Home/SuperBitcoin</summary></entry><entry><title type="html">BitcoinGold</title><link href="http://chainspl.it/chainsplit-www/2017/11/24/gold.html" rel="alternate" type="text/html" title="BitcoinGold" /><published>2017-11-24T00:00:00+01:00</published><updated>2017-11-24T00:00:00+01:00</updated><id>http://chainspl.it/chainsplit-www/2017/11/24/gold</id><content type="html" xml:base="http://chainspl.it/chainsplit-www/2017/11/24/gold.html">&lt;p&gt;&lt;a href=&quot;/&quot;&gt;Home/&lt;/a&gt;BitcoinGold&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;&quot;&gt;Project website &lt;i class=&quot;fa fa-external-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">SuperBitcoin</summary></entry><entry><title type="html">BitcoinGold</title><link href="http://chainspl.it/chainsplit-www/2017/11/24/gold.html" rel="alternate" type="text/html" title="BitcoinGold" /><published>2017-11-24T00:00:00+01:00</published><updated>2017-11-24T00:00:00+01:00</updated><id>http://chainspl.it/chainsplit-www/2017/11/24/gold</id><content type="html" xml:base="http://chainspl.it/chainsplit-www/2017/11/24/gold.html">&lt;h2 id=&quot;bitcoingold&quot;&gt;BitcoinGold&lt;/h2&gt;
+&lt;h2 id=&quot;bitcoingold&quot;&gt;BitcoinGold&lt;/h2&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;forked off bitcoin after segwit&lt;/p&gt;
@@ -61,7 +63,7 @@
 
 &lt;p&gt;segwit address support - &lt;a href=&quot;https://github.com/BTCGPU/BTCGPU/issues/215&quot;&gt;&lt;i class=&quot;fa fa-external-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;&quot;&gt;Project website &lt;i class=&quot;fa fa-external-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">BitcoinGold</summary></entry><entry><title type="html">Example content</title><link href="http://chainspl.it/chainsplit-www/example/2017/11/24/example.html" rel="alternate" type="text/html" title="Example content" /><published>2017-11-24T00:00:00+01:00</published><updated>2017-11-24T00:00:00+01:00</updated><id>http://chainspl.it/chainsplit-www/example/2017/11/24/example</id><content type="html" xml:base="http://chainspl.it/chainsplit-www/example/2017/11/24/example.html">&lt;div class=&quot;message&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;https://bitcoingold.org&quot;&gt;Project website &lt;i class=&quot;fa fa-external-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Home/BitcoinGold</summary></entry><entry><title type="html">Example content</title><link href="http://chainspl.it/chainsplit-www/example/2017/11/24/example.html" rel="alternate" type="text/html" title="Example content" /><published>2017-11-24T00:00:00+01:00</published><updated>2017-11-24T00:00:00+01:00</updated><id>http://chainspl.it/chainsplit-www/example/2017/11/24/example</id><content type="html" xml:base="http://chainspl.it/chainsplit-www/example/2017/11/24/example.html">&lt;div class=&quot;message&quot;&gt;
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
 &lt;/div&gt;
 
@@ -182,7 +184,9 @@
 
 &lt;hr /&gt;
 
-&lt;p&gt;Want to see something else added? &lt;a href=&quot;https://github.com/poole/poole/issues/new&quot;&gt;Open an issue.&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Howdy! This is an example blog post that shows several types of HTML content supported in this theme.</summary></entry><entry><title type="html">Diamond</title><link href="http://chainspl.it/chainsplit-www/2017/11/24/diamond.html" rel="alternate" type="text/html" title="Diamond" /><published>2017-11-24T00:00:00+01:00</published><updated>2017-11-24T00:00:00+01:00</updated><id>http://chainspl.it/chainsplit-www/2017/11/24/diamond</id><content type="html" xml:base="http://chainspl.it/chainsplit-www/2017/11/24/diamond.html">&lt;h2 id=&quot;diamond&quot;&gt;Diamond&lt;/h2&gt;
+&lt;p&gt;Want to see something else added? &lt;a href=&quot;https://github.com/poole/poole/issues/new&quot;&gt;Open an issue.&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Howdy! This is an example blog post that shows several types of HTML content supported in this theme.</summary></entry><entry><title type="html">Diamond</title><link href="http://chainspl.it/chainsplit-www/2017/11/24/diamond.html" rel="alternate" type="text/html" title="Diamond" /><published>2017-11-24T00:00:00+01:00</published><updated>2017-11-24T00:00:00+01:00</updated><id>http://chainspl.it/chainsplit-www/2017/11/24/diamond</id><content type="html" xml:base="http://chainspl.it/chainsplit-www/2017/11/24/diamond.html">&lt;p&gt;&lt;a href=&quot;/&quot;&gt;Home/&lt;/a&gt;Diamond&lt;/p&gt;
+
+&lt;h2 id=&quot;diamond&quot;&gt;Diamond&lt;/h2&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;chain state snapshotted, but code not released yet so it’s hard to say whether the fork actually occurred yet&lt;/p&gt;
@@ -215,7 +219,9 @@
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/Bitcoin-Diamond/BitcoinDiamond&quot;&gt;Repository &lt;i class=&quot;fa fa-external-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;&quot;&gt;Project website &lt;i class=&quot;fa fa-external-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Diamond</summary></entry><entry><title type="html">Clashic</title><link href="http://chainspl.it/chainsplit-www/2017/11/24/clashic.html" rel="alternate" type="text/html" title="Clashic" /><published>2017-11-24T00:00:00+01:00</published><updated>2017-11-24T00:00:00+01:00</updated><id>http://chainspl.it/chainsplit-www/2017/11/24/clashic</id><content type="html" xml:base="http://chainspl.it/chainsplit-www/2017/11/24/clashic.html">&lt;h2 id=&quot;clashic&quot;&gt;Clashic&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://btcd.io/&quot;&gt;Project website &lt;i class=&quot;fa fa-external-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Home/Diamond</summary></entry><entry><title type="html">Clashic</title><link href="http://chainspl.it/chainsplit-www/2017/11/24/clashic.html" rel="alternate" type="text/html" title="Clashic" /><published>2017-11-24T00:00:00+01:00</published><updated>2017-11-24T00:00:00+01:00</updated><id>http://chainspl.it/chainsplit-www/2017/11/24/clashic</id><content type="html" xml:base="http://chainspl.it/chainsplit-www/2017/11/24/clashic.html">&lt;p&gt;&lt;a href=&quot;/&quot;&gt;Home/&lt;/a&gt;Clashic&lt;/p&gt;
+
+&lt;h2 id=&quot;clashic&quot;&gt;Clashic&lt;/h2&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;used to be known as bitcoin cash, forked off bitcoin on august 1st (before segwit activation)&lt;/p&gt;
@@ -242,7 +248,9 @@
 
 &lt;p&gt;&lt;a href=&quot;&quot;&gt;Repository &lt;i class=&quot;fa fa-external-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;&quot;&gt;Project website &lt;i class=&quot;fa fa-external-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Clashic</summary></entry><entry><title type="html">BCash</title><link href="http://chainspl.it/chainsplit-www/2017/11/24/bcash.html" rel="alternate" type="text/html" title="BCash" /><published>2017-11-24T00:00:00+01:00</published><updated>2017-11-24T00:00:00+01:00</updated><id>http://chainspl.it/chainsplit-www/2017/11/24/bcash</id><content type="html" xml:base="http://chainspl.it/chainsplit-www/2017/11/24/bcash.html">&lt;h2 id=&quot;bcash&quot;&gt;BCash&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://bitcoinclashic.org&quot;&gt;Project website &lt;i class=&quot;fa fa-external-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Home/Clashic</summary></entry><entry><title type="html">BCash</title><link href="http://chainspl.it/chainsplit-www/2017/11/24/bcash.html" rel="alternate" type="text/html" title="BCash" /><published>2017-11-24T00:00:00+01:00</published><updated>2017-11-24T00:00:00+01:00</updated><id>http://chainspl.it/chainsplit-www/2017/11/24/bcash</id><content type="html" xml:base="http://chainspl.it/chainsplit-www/2017/11/24/bcash.html">&lt;p&gt;&lt;a href=&quot;/&quot;&gt;Home/&lt;/a&gt;BCash&lt;/p&gt;
+
+&lt;h2 id=&quot;bcash&quot;&gt;BCash&lt;/h2&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;technically forked off what is now known as bitcoin clashic on november 13th&lt;/p&gt;
@@ -275,7 +283,9 @@
 
 &lt;p&gt;&lt;a href=&quot;&quot;&gt;Repository &lt;i class=&quot;fa fa-external-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://bitcoincash.org/&quot;&gt;Project website &lt;i class=&quot;fa fa-external-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">BCash</summary></entry><entry><title type="html">2M</title><link href="http://chainspl.it/chainsplit-www/2017/11/24/2m.html" rel="alternate" type="text/html" title="2M" /><published>2017-11-24T00:00:00+01:00</published><updated>2017-11-24T00:00:00+01:00</updated><id>http://chainspl.it/chainsplit-www/2017/11/24/2m</id><content type="html" xml:base="http://chainspl.it/chainsplit-www/2017/11/24/2m.html">&lt;h2 id=&quot;2m&quot;&gt;2M&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://bitcoincash.org/&quot;&gt;Project website &lt;i class=&quot;fa fa-external-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Home/BCash</summary></entry><entry><title type="html">2M</title><link href="http://chainspl.it/chainsplit-www/2017/11/24/2m.html" rel="alternate" type="text/html" title="2M" /><published>2017-11-24T00:00:00+01:00</published><updated>2017-11-24T00:00:00+01:00</updated><id>http://chainspl.it/chainsplit-www/2017/11/24/2m</id><content type="html" xml:base="http://chainspl.it/chainsplit-www/2017/11/24/2m.html">&lt;p&gt;&lt;a href=&quot;/&quot;&gt;Home/&lt;/a&gt;2M&lt;/p&gt;
+
+&lt;h2 id=&quot;2m&quot;&gt;2M&lt;/h2&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;fork of bitcoin gold, after sighash_forkid changes&lt;/p&gt;
@@ -302,4 +312,4 @@
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/bitcoin2m/BitcoinX&quot;&gt;Repository &lt;i class=&quot;fa fa-external-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;&quot;&gt;Project website &lt;i class=&quot;fa fa-external-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">2M</summary></entry></feed>
+&lt;p&gt;&lt;a href=&quot;http://bitcoin2m.org&quot;&gt;Project website &lt;i class=&quot;fa fa-external-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Home/2M</summary></entry></feed>
