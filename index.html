@@ -112,7 +112,64 @@
   <h1 class="post-title">Bitcoin Forks</h1>
 </header>
 
-<p>A known list of Bitcoin forks, including forks-of-forks.</p>
+<p>A overview of Bitcoin forks, including forks-of-forks.</p>
+
+<hr >
+
+<div class="subway-map" data-columns="16" data-rows="10" data-cellSize="40" data-legendId="legend" data-textClass="text" data-gridNumbers="true" data-grid="false" data-lineWidth="10">
+        <ul data-color="#1f78b1" data-label="Bitcoin" data-shiftCoords="0,-1" >
+            <li data-coords="0.77,1">Bitcoin</li>
+            <li data-coords="0.77,0.77" data-marker="@interchange"> </li> <!-- marker-only node, moved up by 0.10 -->
+            <li data-coords="3,1"   data-marker="@station" data-labelPos="N"><a href="">478559</a></li>
+            <li data-coords="4.5,1" > segwit</li>
+            <li data-coords="7,1" data-labelPos="N" > 491407</li>
+            <li data-coords="10,1" data-labelPos="N" > 495866</li>
+            <li data-coords="12,1" data-labelPos="N" > 498888</li>
+            <li data-coords="15,1" data-marker="" data-labelPos="E" ><a href="">BTC</a></li>
+        </ul>
+
+        <ul data-color="#9fada2" data-label="BGold">
+             <li data-coords="10,0.77" > </li>
+             <li data-coords="11,3"  data-marker="station" > </li>
+             <li data-coords="15,3" data-marker="" data-labelPos="E"><a href=""> Diamond</a></li>
+        </ul>
+
+        <ul data-color="#6f72ad" data-label="Superbitcoin">
+             <li data-coords="12,0.77" > </li>
+             <li data-coords="12.9,2" data-dir="E" data-marker="station" > </li>
+             <li data-coords="15,2" data-marker="" data-labelPos="E"><a href=""> Superbitcoin</a></li>
+        </ul>
+
+        <ul data-color="#7fcdd2" data-label="Clashic">
+             <li data-coords="3,0.77" > </li> <!-- marker-only node, moved up by 0.20 -->
+             <li data-coords="5.5,6" >Clashic</li>
+             <li data-coords="8,6"  data-marker="station" data-labelPos="N">504032</li>
+             <li data-coords="15,6" data-marker="" data-labelPos="E"><a href="">Clashic</a></li>
+        </ul>
+
+        <ul data-color="#2db2df" data-label="Cash">
+             <li data-coords="8,6" > </li> <!-- marker-only node, moved up by 0.20 -->
+             <li data-coords="9,7" data-dir="E" data-marker="station" >Cash</li>
+             <li data-coords="15,7" data-marker="" data-labelPos="E"><a href="">Cash </a></li>
+        </ul>
+
+        <ul data-color="#4fadb2" data-label="BGold">
+             <li data-coords="7,0.77" > </li>
+             <li data-coords="8.5,4" data-dir="E" data-marker="station" >BGold</li>
+             <li data-coords="10,4" data-labelPos="N"> 494784</li>
+             <li data-coords="15,4" data-marker="" data-labelPos="E"><a href="">Gold</a></li>
+        </ul>
+
+        <ul data-color="#226fad" data-label="2x">
+             <li data-coords="10,4" > </li>
+             <li data-coords="11,5" data-dir="E" data-marker="station" > </li>
+             <li data-coords="15,5" data-marker="" data-labelPos="E"><a href="">2X </a></li>
+        </ul>
+    </div>
+    <script type="text/javascript">
+        $(".subway-map").subwayMap({ debug: false });
+    </script>
+
 
 <table>
     <thead>
@@ -194,60 +251,7 @@
 </table>
 
 <hr >
- <div class="subway-map" data-columns="16" data-rows="10" data-cellSize="40" data-legendId="legend" data-textClass="text" data-gridNumbers="true" data-grid="false" data-lineWidth="10">
 
-        <ul data-color="#6666ee" data-label="Bitcoin" data-shiftCoords="0,-1" >
-            <li data-coords="0.77,1">Bitcoin</li>
-            <li data-coords="0.77,0.77" data-marker="@interchange"> </li> <!-- marker-only node, moved up by 0.10 -->
-            <li data-coords="3,1"   data-marker="@station" data-labelPos="N"><a href="">478559</a></li>
-            <li data-coords="4.5,1" > segwit</li>
-            <li data-coords="7,1" data-labelPos="N" > 491407</li>
-            <li data-coords="10,1" data-labelPos="N" > 495866</li>
-            <li data-coords="12,1" data-labelPos="N" > 498888</li>
-            <li data-coords="15,1" data-marker="" data-labelPos="E" ><a href="">BTC</a></li>
-        </ul>
-
-        <ul data-color="#9fada2" data-label="BGold">
-             <li data-coords="10,0.77" > </li>
-             <li data-coords="11,3"  data-marker="station" > </li>
-             <li data-coords="15,3" data-marker="" data-labelPos="E"><a href=""> Diamond</a></li>
-        </ul>
-
-        <ul data-color="#6f72ad" data-label="Superbitcoin">
-             <li data-coords="12,0.77" > </li>
-             <li data-coords="12.9,2" data-dir="E" data-marker="station" > </li>
-             <li data-coords="15,2" data-marker="" data-labelPos="E"><a href=""> Superbitcoin</a></li>
-        </ul>
-
-        <ul data-color="#7fcdd2" data-label="Clashic">
-             <li data-coords="3,0.77" > </li> <!-- marker-only node, moved up by 0.20 -->
-             <li data-coords="5.5,6" >Clashic</li>
-             <li data-coords="8,6"  data-marker="station" data-labelPos="N">504032</li>
-             <li data-coords="15,6" data-marker="" data-labelPos="E"><a href="">Clashic</a></li>
-        </ul>
-
-        <ul data-color="#2db2df" data-label="Cash">
-             <li data-coords="8,6" > </li> <!-- marker-only node, moved up by 0.20 -->
-             <li data-coords="9,7" data-dir="E" data-marker="station" >Cash</li>
-             <li data-coords="15,7" data-marker="" data-labelPos="E"><a href="">Cash </a></li>
-        </ul>
-
-        <ul data-color="#4fadb2" data-label="BGold">
-             <li data-coords="7,0.77" > </li>
-             <li data-coords="8.5,4" data-dir="E" data-marker="station" >BGold</li>
-             <li data-coords="10,4" data-labelPos="N"> 494784</li>
-             <li data-coords="15,4" data-marker="" data-labelPos="E"><a href="">Gold</a></li>
-        </ul>
-
-        <ul data-color="#226fad" data-label="2x">
-             <li data-coords="10,4" > </li>
-             <li data-coords="11,5" data-dir="E" data-marker="station" > </li>
-             <li data-coords="15,5" data-marker="" data-labelPos="E"><a href="">2X </a></li>
-        </ul>
-    </div>
-    <script type="text/javascript">
-        $(".subway-map").subwayMap({ debug: false });
-    </script>
 
 
 
