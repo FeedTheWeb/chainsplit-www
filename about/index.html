@@ -16,9 +16,35 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="/chainsplit-www/assets/main.css">
 
+   <style type="text/css">
+    /* The main DIV for the map */
+    .subway-map
+    {
+        margin: 0;
+        width: 650px;
+        height:410px;
+        background-color: white;
+    }
+
+    /* Text labels */
+    .text
+    {
+        text-decoration: none;
+        color: black;
+    }
+
+    .subway-map span
+    {
+        margin: 5px 5px 5px 0;
+    }
+
+    </style>
+
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="/chainsplit-www/assets/js/lang.js"></script>
-
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.0.min.js"></script>
+  <script type="text/javascript" src="/chainsplit-www/assets/js/jquery.subwayMap-0.5.0.js"></script>
   
 </head>
 
@@ -80,8 +106,8 @@
 </header>
 
 
-    <div class="wrapper main">
-      <main class="page-content" aria-label="Content">
+    <div class="main">
+      <main class="wrapper page-content" aria-label="Content">
         <article class="post">
 
   <header class="post-header">
@@ -102,9 +128,7 @@
 
       </main>
 
-    </div>
-
-    <footer class="site-footer">
+      <footer class="site-footer">
 
 
 <div class="wrapper">
@@ -149,6 +173,7 @@
 </div>
 </footer>
 
+    </div>
   </body>
 
 </html>

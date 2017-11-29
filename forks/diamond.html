@@ -6,19 +6,45 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>chainspl.it | BitcoinGold</title>
-  <meta name="description" content="Home/BitcoinGold">
+  <title>chainspl.it | Diamond</title>
+  <meta name="description" content="chain state snapshotted, but code not released yet so it’s hard to say whether the fork actually occurred yet">
 
-  <link rel="canonical" href="http://chainspl.it/chainsplit-www/2017/11/24/gold.html">
+  <link rel="canonical" href="http://chainspl.it/chainsplit-www/forks/diamond.html">
   <link rel="alternate" type="application/rss+xml" title="chainspl.it" href="/chainsplit-www/feed.xml">
   <link href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet">
   <link href="https://unpkg.com/ace-css/css/ace.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="/chainsplit-www/assets/main.css">
 
+   <style type="text/css">
+    /* The main DIV for the map */
+    .subway-map
+    {
+        margin: 0;
+        width: 650px;
+        height:410px;
+        background-color: white;
+    }
+
+    /* Text labels */
+    .text
+    {
+        text-decoration: none;
+        color: black;
+    }
+
+    .subway-map span
+    {
+        margin: 5px 5px 5px 0;
+    }
+
+    </style>
+
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="/chainsplit-www/assets/js/lang.js"></script>
-
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.0.min.js"></script>
+  <script type="text/javascript" src="/chainsplit-www/assets/js/jquery.subwayMap-0.5.0.js"></script>
   
 </head>
 
@@ -80,66 +106,54 @@
 </header>
 
 
-    <div class="wrapper main">
-      <main class="page-content" aria-label="Content">
+    <div class="main">
+      <main class="wrapper page-content" aria-label="Content">
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline"></h1>
+    <a href="/chainsplit-www/">Bitcoin Forks</a> / Diamond
+    <hr>
+    <h1>Diamond</h1>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p><a href="/">Home/</a>BitcoinGold</p>
-
-<h2 id="bitcoingold">BitcoinGold</h2>
-
-<blockquote>
-  <p>forked off bitcoin after segwit</p>
+    <blockquote>
+  <p>chain state snapshotted, but code not released yet so it’s hard to say whether the fork actually occurred yet</p>
 </blockquote>
 
 <table>
     <thead>
-
         <tr>
-            <th>Block #</th>
+            <th>Fork height</th>
             <th>Replay protection</th>
             <th>Segwit</th>
-            <th>Pre-mine (coins)</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-          <td>491407</td>
-          <td> <i class="fa fa-minus-circle red" aria-hidden="true"></i> </td>
-          <td> <i class="fa fa-minus-circle red" aria-hidden="true"></i> </td>
-          <td>100,000</td>
+          <td>495866</td>
+          <td> <i class="fa fa-minus-circle red" aria-label="No replay protection"></i> </td>
+          <td> <i class="fa fa-check-square olive" aria-label="Has segwit"></i>  </td>
         </tr>
     </tbody>
 </table>
 
-<h4 id="warnings">Warnings:</h4>
+<h3 id="warnings">Warnings:</h3>
 
-<p><a href="http://bitcoinist.com/bitcoin-gold-releases-statement-mybtgwallet-scam/">MyBTGWallet scam</a></p>
+<p><a href="https://medium.com/@btcblooddiamond/bitcoin-diamond-is-a-scam-of-epic-proportions-7d7908c43c22" target="_blank">Diamond is scam of epic proportions</a></p>
 
-<h4 id="technical-info">Technical Info:</h4>
+<hr />
 
-<p>Address Format: btg</p>
+<p><a href="https://github.com/Bitcoin-Diamond/BitcoinDiamond" target="_blank">Repository <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
 
-<p>sighash changes - <a href="https://github.com/BTCGPU/BTCGPU/pull/109/"><i class="fa fa-external-link" aria-hidden="true"></i></a></p>
-
-<p>segwit address support - <a href="https://github.com/BTCGPU/BTCGPU/issues/215"><i class="fa fa-external-link" aria-hidden="true"></i></a></p>
-
-<p><a href="https://bitcoingold.org">Project website <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
-
+<p><a href="http://btcd.io/" target="_blank">Project website <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
 
   </div>
 
 </article>
       </main>
 
-    </div>
-
-    <footer class="site-footer">
+      <footer class="site-footer">
 
 
 <div class="wrapper">
@@ -184,6 +198,7 @@
 </div>
 </footer>
 
+    </div>
   </body>
 
 </html>

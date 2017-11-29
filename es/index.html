@@ -16,14 +16,41 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="/chainsplit-www/assets/main.css">
 
+   <style type="text/css">
+    /* The main DIV for the map */
+    .subway-map
+    {
+        margin: 0;
+        width: 650px;
+        height:410px;
+        background-color: white;
+    }
+
+    /* Text labels */
+    .text
+    {
+        text-decoration: none;
+        color: black;
+    }
+
+    .subway-map span
+    {
+        margin: 5px 5px 5px 0;
+    }
+
+    </style>
+
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="/chainsplit-www/assets/js/lang.js"></script>
-
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.0.min.js"></script>
+  <script type="text/javascript" src="/chainsplit-www/assets/js/jquery.subwayMap-0.5.0.js"></script>
   
 </head>
 
 
   <body>
+
     <header class="site-header" role="banner">
 
   <div class="wrap">
@@ -79,240 +106,155 @@
 </header>
 
 
-    <div class="wrapper fullwidth main">
-      <main class="page-content" aria-label="Content">
+    <div class="main">
+      <main class="wrapper page-content" aria-label="Content">
+        <header class="post-header">
+  <h1 class="post-title">Bitcoin Forks</h1>
+</header>
 
+<p>A known list of Bitcoin forks, including forks-of-forks.</p>
+
+<table>
+    <thead>
+        <th>Name</th>
+        <th>Fork height</th>
+        <th>Replay protection</th>
+        <th>Segwit</th>
+    </thead>
+    <tbody>
         
-
-        <h1 class="page-heading"></h1>
-
-            <blockquote>
-    <p></p>
-</blockquote>
-
-<div class="mxn2 flex flex-wrap coins ">
-
-    <table>
-        <thead>
-            <th></th>
-            <th>Block #</th>
-            <th>Replay protection</th>
-            <th>Segwit</th>
-            <th></th>
-        </thead>
-        <tbody>
-            
-             
-            <tr>
-                <td><b>SuperBitcoin</b></td>
-                <td>498888</td>
-                <td>
-                     <i class="fa fa-minus-circle red" aria-hidden="true"></i> 
-
-                </td>
-                <td> <i class="fa fa-check-square olive" aria-hidden="true"></i>  </td>
-                <td><a class="" href="/chainsplit-www/es/2017/11/24/superbitcoin.html" class="btn btn-primary">more</a></td>
-            </tr>
-            
-            
-             
-            <tr>
-                <td><b>BitcoinGold</b></td>
-                <td>491407</td>
-                <td>
-                     <i class="fa fa-check-square olive" aria-hidden="true"></i> sighash_forkid 
-
-                </td>
-                <td> <i class="fa fa-check-square olive" aria-hidden="true"></i>  </td>
-                <td><a class="" href="/chainsplit-www/es/2017/11/24/gold.html" class="btn btn-primary">more</a></td>
-            </tr>
-            
-            
-             
-            
-             
-            <tr>
-                <td><b>Diamond</b></td>
-                <td>495866</td>
-                <td>
-                     <i class="fa fa-minus-circle red" aria-hidden="true"></i> 
-
-                </td>
-                <td> <i class="fa fa-check-square olive" aria-hidden="true"></i>  </td>
-                <td><a class="" href="/chainsplit-www/es/2017/11/24/diamond.html" class="btn btn-primary">more</a></td>
-            </tr>
-            
-            
-             
-            <tr>
-                <td><b>Clashic</b></td>
-                <td>478559</td>
-                <td>
-                     <i class="fa fa-minus-circle red" aria-hidden="true"></i> 
-
-                </td>
-                <td> <i class="fa fa-minus-circle red" aria-hidden="true"></i> </td>
-                <td><a class="" href="/chainsplit-www/es/2017/11/24/clashic.html" class="btn btn-primary">more</a></td>
-            </tr>
-            
-            
-             
-            <tr>
-                <td><b>BCash</b></td>
-                <td>504032</td>
-                <td>
-                     <i class="fa fa-check-square olive" aria-hidden="true"></i> sighash_forkid 
-
-                </td>
-                <td> <i class="fa fa-minus-circle red" aria-hidden="true"></i> </td>
-                <td><a class="" href="/chainsplit-www/es/2017/11/24/bcash.html" class="btn btn-primary">more</a></td>
-            </tr>
-            
-            
-             
-            <tr>
-                <td><b>2M</b></td>
-                <td>494784</td>
-                <td>
-                     <i class="fa fa-minus-circle red" aria-hidden="true"></i> 
-
-                </td>
-                <td> <i class="fa fa-minus-circle red" aria-hidden="true"></i> </td>
-                <td><a class="" href="/chainsplit-www/es/2017/11/24/2m.html" class="btn btn-primary">more</a></td>
-            </tr>
-            
-            
-        </tbody>
-
+        
+        
+        <tr>
+            <td><b><a href="/chainsplit-www/es/forks/clashic.html">Clashic</a></b></td>
+            <td>478559</td>
+            <td>
+                 <i class="fa fa-minus-circle red" aria-label="No replay protection"></i> 
+            </td>
+            <td> <i class="fa fa-minus-circle red" aria-label="No segwit"></i> </td>
+        </tr>
+        
+        
+        
+        <tr>
+            <td><b><a href="/chainsplit-www/es/forks/gold.html">Gold</a></b></td>
+            <td>491407</td>
+            <td>
+                 <i class="fa fa-check-square olive" aria-label="Has replay protection"></i> sighash_forkid 
+            </td>
+            <td> <i class="fa fa-check-square olive" aria-label="Has segwit"></i>  </td>
+        </tr>
+        
+        
+        
+        <tr>
+            <td><b><a href="/chainsplit-www/es/forks/cash.html">Cash</a></b></td>
+            <td>504032</td>
+            <td>
+                 <i class="fa fa-check-square olive" aria-label="Has replay protection"></i> sighash_forkid 
+            </td>
+            <td> <i class="fa fa-minus-circle red" aria-label="No segwit"></i> </td>
+        </tr>
+        
+        
+        
+        <tr>
+            <td><b><a href="/chainsplit-www/es/forks/2x.html">2X</a></b></td>
+            <td>494784</td>
+            <td>
+                 <i class="fa fa-minus-circle red" aria-label="No replay protection"></i> 
+            </td>
+            <td> <i class="fa fa-minus-circle red" aria-label="No segwit"></i> </td>
+        </tr>
+        
+        
+        
+        <tr>
+            <td><b><a href="/chainsplit-www/es/forks/diamond.html">Diamond</a></b></td>
+            <td>495866</td>
+            <td>
+                 <i class="fa fa-minus-circle red" aria-label="No replay protection"></i> 
+            </td>
+            <td> <i class="fa fa-check-square olive" aria-label="Has segwit"></i>  </td>
+        </tr>
+        
+        
+        
+        <tr>
+            <td><b><a href="/chainsplit-www/es/forks/superbitcoin.html">SuperBitcoin</a></b></td>
+            <td>498888</td>
+            <td>
+                 <i class="fa fa-minus-circle red" aria-label="No replay protection"></i> 
+            </td>
+            <td> <i class="fa fa-check-square olive" aria-label="Has segwit"></i>  </td>
+        </tr>
+        
+        
+    </tbody>
 </table>
 
+<hr >
+ <div class="subway-map" data-columns="16" data-rows="10" data-cellSize="40" data-legendId="legend" data-textClass="text" data-gridNumbers="true" data-grid="false" data-lineWidth="10">
+
+        <ul data-color="#6666ee" data-label="Bitcoin" data-shiftCoords="0,-1" >
+            <li data-coords="0.77,1">Bitcoin</li>
+            <li data-coords="0.77,0.77" data-marker="@interchange"> </li> <!-- marker-only node, moved up by 0.10 -->
+            <li data-coords="3,1"   data-marker="@station" data-labelPos="N"><a href="">478559</a></li>
+            <li data-coords="4.5,1" > segwit</li>
+            <li data-coords="7,1" data-labelPos="N" > 491407</li>
+            <li data-coords="10,1" data-labelPos="N" > 495866</li>
+            <li data-coords="12,1" data-labelPos="N" > 498888</li>
+            <li data-coords="15,1" data-marker="" data-labelPos="E" ><a href="">BTC</a></li>
+        </ul>
+
+        <ul data-color="#9fada2" data-label="BGold">
+             <li data-coords="10,0.77" > </li>
+             <li data-coords="11,3"  data-marker="station" > </li>
+             <li data-coords="15,3" data-marker="" data-labelPos="E"><a href=""> Diamond</a></li>
+        </ul>
+
+        <ul data-color="#6f72ad" data-label="Superbitcoin">
+             <li data-coords="12,0.77" > </li>
+             <li data-coords="12.9,2" data-dir="E" data-marker="station" > </li>
+             <li data-coords="15,2" data-marker="" data-labelPos="E"><a href=""> Superbitcoin</a></li>
+        </ul>
+
+        <ul data-color="#7fcdd2" data-label="Clashic">
+             <li data-coords="3,0.77" > </li> <!-- marker-only node, moved up by 0.20 -->
+             <li data-coords="5.5,6" >Clashic</li>
+             <li data-coords="8,6"  data-marker="station" data-labelPos="N">504032</li>
+             <li data-coords="15,6" data-marker="" data-labelPos="E"><a href="">Clashic</a></li>
+        </ul>
+
+        <ul data-color="#2db2df" data-label="Cash">
+             <li data-coords="8,6" > </li> <!-- marker-only node, moved up by 0.20 -->
+             <li data-coords="9,7" data-dir="E" data-marker="station" >Cash</li>
+             <li data-coords="15,7" data-marker="" data-labelPos="E"><a href="">Cash </a></li>
+        </ul>
+
+        <ul data-color="#4fadb2" data-label="BGold">
+             <li data-coords="7,0.77" > </li>
+             <li data-coords="8.5,4" data-dir="E" data-marker="station" >BGold</li>
+             <li data-coords="10,4" data-labelPos="N"> 494784</li>
+             <li data-coords="15,4" data-marker="" data-labelPos="E"><a href="">Gold</a></li>
+        </ul>
+
+        <ul data-color="#226fad" data-label="2x">
+             <li data-coords="10,4" > </li>
+             <li data-coords="11,5" data-dir="E" data-marker="station" > </li>
+             <li data-coords="15,5" data-marker="" data-labelPos="E"><a href="">2X </a></li>
+        </ul>
+    </div>
+    <script type="text/javascript">
+        $(".subway-map").subwayMap({ debug: false });
+    </script>
 
 
-<!--
-    
-    
-        <div class="px2 col-12 sm-col-6 md-col-4  ">
-           <div class="">
-               <h3>SuperBitcoin</h3>
-               <h5>block :  498888</h5>
-
-               
-                <h5>replay protection: <b class="orange">No</b></h5>
-               
-
-               <h5>segwit: <b><i class="fa fa-check-square olive" aria-hidden="true"></i> Yes
-                   </b></h5>
-               <p>
-                <a class="btn btn-primary" href="/chainsplit-www/es/2017/11/24/superbitcoin.html" class="btn btn-primary">more</a>
-               </p>
-           </div>
-        </div>
-    
-    
-    
-        <div class="px2 col-12 sm-col-6 md-col-4  ">
-           <div class="">
-               <h3>BitcoinGold</h3>
-               <h5>block :  491407</h5>
-
-               
-                <h5>replay protection: <b>sighash_forkid</b></h5>
-               
-
-               <h5>segwit: <b><i class="fa fa-check-square olive" aria-hidden="true"></i> Yes
-                   </b></h5>
-               <p>
-                <a class="btn btn-primary" href="/chainsplit-www/es/2017/11/24/gold.html" class="btn btn-primary">more</a>
-               </p>
-           </div>
-        </div>
-    
-    
-    
-    
-    
-        <div class="px2 col-12 sm-col-6 md-col-4  ">
-           <div class="">
-               <h3>Diamond</h3>
-               <h5>block :  495866</h5>
-
-               
-                <h5>replay protection: <b class="orange">No</b></h5>
-               
-
-               <h5>segwit: <b><i class="fa fa-check-square olive" aria-hidden="true"></i> Yes
-                   </b></h5>
-               <p>
-                <a class="btn btn-primary" href="/chainsplit-www/es/2017/11/24/diamond.html" class="btn btn-primary">more</a>
-               </p>
-           </div>
-        </div>
-    
-    
-    
-        <div class="px2 col-12 sm-col-6 md-col-4  ">
-           <div class="">
-               <h3>Clashic</h3>
-               <h5>block :  478559</h5>
-
-               
-                <h5>replay protection: <b class="orange">No</b></h5>
-               
-
-               <h5>segwit: <b> <b class="orange">No</b> </b></h5>
-               <p>
-                <a class="btn btn-primary" href="/chainsplit-www/es/2017/11/24/clashic.html" class="btn btn-primary">more</a>
-               </p>
-           </div>
-        </div>
-    
-    
-    
-        <div class="px2 col-12 sm-col-6 md-col-4  ">
-           <div class="">
-               <h3>BCash</h3>
-               <h5>block :  504032</h5>
-
-               
-                <h5>replay protection: <b>sighash_forkid</b></h5>
-               
-
-               <h5>segwit: <b> <b class="orange">No</b> </b></h5>
-               <p>
-                <a class="btn btn-primary" href="/chainsplit-www/es/2017/11/24/bcash.html" class="btn btn-primary">more</a>
-               </p>
-           </div>
-        </div>
-    
-    
-    
-        <div class="px2 col-12 sm-col-6 md-col-4  ">
-           <div class="">
-               <h3>2M</h3>
-               <h5>block :  494784</h5>
-
-               
-                <h5>replay protection: <b class="orange">No</b></h5>
-               
-
-               <h5>segwit: <b> <b class="orange">No</b> </b></h5>
-               <p>
-                <a class="btn btn-primary" href="/chainsplit-www/es/2017/11/24/2m.html" class="btn btn-primary">more</a>
-               </p>
-           </div>
-        </div>
-    
-    
--->
-</div>
 
 
-        
       </main>
 
-    </div>
-
-    <footer class="site-footer">
+      <footer class="site-footer">
 
 
 <div class="wrapper">
@@ -357,6 +299,7 @@
 </div>
 </footer>
 
+    </div>
   </body>
 
 </html>

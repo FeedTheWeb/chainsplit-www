@@ -6,19 +6,45 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>chainspl.it | 2M</title>
-  <meta name="description" content="Home/2M">
+  <title>chainspl.it | Cash</title>
+  <meta name="description" content="fork of what is now known as Clashic (formerly Cash) on November 13th">
 
-  <link rel="canonical" href="http://chainspl.it/chainsplit-www/2017/11/24/2m.html">
-  <link rel="alternate" type="application/rss+xml" title="chainspl.it" href="/chainsplit-www/feed.xml">
+  <link rel="canonical" href="http://chainspl.it/chainsplit-www/es/forks/cash.html">
+  <link rel="alternate" type="application/rss+xml" title="chainspl.it" href="/chainsplit-www/es/feed.xml">
   <link href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet">
   <link href="https://unpkg.com/ace-css/css/ace.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="/chainsplit-www/assets/main.css">
 
+   <style type="text/css">
+    /* The main DIV for the map */
+    .subway-map
+    {
+        margin: 0;
+        width: 650px;
+        height:410px;
+        background-color: white;
+    }
+
+    /* Text labels */
+    .text
+    {
+        text-decoration: none;
+        color: black;
+    }
+
+    .subway-map span
+    {
+        margin: 5px 5px 5px 0;
+    }
+
+    </style>
+
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="/chainsplit-www/assets/js/lang.js"></script>
-
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.0.min.js"></script>
+  <script type="text/javascript" src="/chainsplit-www/assets/js/jquery.subwayMap-0.5.0.js"></script>
   
 </head>
 
@@ -32,8 +58,8 @@
 
     <img src="/chainsplit-www/assets/img/logo.jpg"
       alt="chainspl.it safely separate your coins" class="logo" />
-    <a class="site-title" href="/chainsplit-www/">chainspl.it</a>
-    <a class="site-title site-subtitle" href="/chainsplit-www/">safely separate your coins</a>
+    <a class="site-title" href="/chainsplit-www/es/">chainspl.it</a>
+    <a class="site-title site-subtitle" href="/chainsplit-www/es/">safely separate your coins</a>
 
     <div class="lang-select">
       <select>
@@ -60,12 +86,12 @@
           
             
             
-            <a class="page-link" href="/chainsplit-www/">Home</a>
+            <a class="page-link" href="/chainsplit-www/es/">Home</a>
             
           
             
             
-            <a class="page-link" href="/chainsplit-www/about/">About</a>
+            <a class="page-link" href="/chainsplit-www/es/about/">Acerca</a>
             
           
             
@@ -80,55 +106,65 @@
 </header>
 
 
-    <div class="wrapper main">
-      <main class="page-content" aria-label="Content">
+    <div class="main">
+      <main class="wrapper page-content" aria-label="Content">
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline"></h1>
+    <a href="/chainsplit-www/es/">Bitcoin Forks</a> / Cash
+    <hr>
+    <h1>Cash</h1>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p><a href="/">Home/</a>2M</p>
-
-<h2 id="2m">2M</h2>
-
-<blockquote>
-  <p>fork of bitcoin gold, after sighash_forkid changes</p>
+    <blockquote>
+  <p>fork of what is now known as Clashic (formerly Cash) on November 13th</p>
 </blockquote>
 
 <table>
     <thead>
         <tr>
-            <th>Block #</th>
+            <th>Fork height</th>
             <th>Replay protection</th>
             <th>Segwit</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-          <td>494784</td>
-          <td> <i class="fa fa-minus-circle red" aria-hidden="true"></i> </td>
-          <td> <i class="fa fa-minus-circle red" aria-hidden="true"></i> </td>
+          <td>504032</td>
+          <td> <i class="fa fa-check-square olive" aria-label="Has replay protection"></i> sighash_forkid </td>
+          <td> <i class="fa fa-minus-circle red" aria-label="No segwit"></i> </td>
         </tr>
     </tbody>
 </table>
 
-<p>Address Format:</p>
+<h4 id="technical-info">Technical Info:</h4>
 
-<p><a href="https://github.com/bitcoin2m/BitcoinX">Repository <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+<ul>
+  <li>
+    <p>EDA Inflation (coins): ~125,000</p>
+  </li>
+  <li>
+    <p>Address Format: bitcoin (bech32 in discussion)</p>
+  </li>
+  <li>
+    <p>second hard fork spec - <a href="https://github.com/Bitcoin-UAHF/spec/blob/master/nov-13-hardfork-spec.md" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+  </li>
+  <li>
+    <p>new address format proposal - <a href="https://github.com/Bitcoin-UAHF/spec/blob/master/cashaddr.md" target="_blank"> <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+  </li>
+</ul>
 
-<p><a href="http://bitcoin2m.org">Project website <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+<p><a href="https://github.com/Bitcoin-ABC/bitcoin-abc" target="_blank">Repository <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
 
+<p><a href="http://bitcoincash.org/" target="_blank">Project website <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
 
   </div>
 
 </article>
       </main>
 
-    </div>
-
-    <footer class="site-footer">
+      <footer class="site-footer">
 
 
 <div class="wrapper">
@@ -173,6 +209,7 @@
 </div>
 </footer>
 
+    </div>
   </body>
 
 </html>
