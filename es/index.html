@@ -11,7 +11,8 @@
 
   <link rel="canonical" href="http://chainspl.it/chainsplit-www/es/">
   <link rel="alternate" type="application/rss+xml" title="chainspl.it" href="/chainsplit-www/es/feed.xml">
-  <link href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet">
+  <!-- <link href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet"> -->
+
   <link href="https://unpkg.com/ace-css/css/ace.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="/chainsplit-www/assets/main.css">
@@ -21,7 +22,7 @@
     .subway-map
     {
         margin: 0;
-        width: 650px;
+        width: 720px;
         height:410px;
         background-color: white;
     }
@@ -39,7 +40,6 @@
     }
 
     </style>
-
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="/chainsplit-www/assets/js/lang.js"></script>
@@ -64,7 +64,7 @@
     <div class="lang-select">
       <select>
         <option value="">English</option>
-        <option value="es">Español</option>
+        <!-- <option value="es">Español</option> -->
       </select>
       <div class="lang-select-arrow"></div>
     </div>
@@ -112,70 +112,72 @@
   <h1 class="post-title">Bitcoin Forks</h1>
 </header>
 
-<p>A overview of Bitcoin forks, including forks-of-forks.</p>
+<p>A overview of Bitcoin hard forks, including forks-of-forks.</p>
 
 <hr >
 
 <div class="subway-map" data-columns="16" data-rows="10" data-cellSize="40" data-legendId="legend" data-textClass="text" data-gridNumbers="true" data-grid="false" data-lineWidth="10">
         <ul data-color="#1f78b1" data-label="Bitcoin" data-shiftCoords="0,-1" >
-            <li data-coords="0.77,1">Bitcoin</li>
-            <li data-coords="0.77,0.77" data-marker="@interchange"> </li> <!-- marker-only node, moved up by 0.10 -->
-            <li data-coords="3,1"   data-marker="@station" data-labelPos="N"><a href="">478559</a></li>
-            <li data-coords="4.5,1" > segwit</li>
-            <li data-coords="7,1" data-labelPos="N" > 491407</li>
-            <li data-coords="10,1" data-labelPos="N" > 495866</li>
-            <li data-coords="12,1" data-labelPos="N" > 498888</li>
-            <li data-coords="15,1" data-marker="" data-labelPos="E" ><a href="">BTC</a></li>
+            <li data-coords="0.77,1"  data-labeltext="Bitcoin">Bitcoin</li>
+            <li data-coords="0.77,0.77" data-marker="@interchange" > </li> <!-- marker-only node, moved up by 0.10 -->
+            <li data-coords="3,1"  data-labeltext="478559" data-marker="@station" > </li>
+            <li data-coords="4.5,1"data-labeltext="segwit" > </li>
+            <li data-coords="7,1"  data-labeltext="491407" > </li>
+            <li data-coords="10,1" data-labeltext="495866" > </li>
+            <li data-coords="12,1" data-labeltext="498888" > </li>
+            <li data-coords="15,1" data-labeltext="Bitcoin" data-marker=""> </li>
         </ul>
 
-        <ul data-color="#9fada2" data-label="BGold">
-             <li data-coords="10,0.77" > </li>
-             <li data-coords="11,3"  data-marker="station" > </li>
-             <li data-coords="15,3" data-marker="" data-labelPos="E"><a href=""> Diamond</a></li>
+        <ul data-color="#9fada2" data-labeltext="Diamond" data-label="Diamond">
+             <li data-coords="10,0.77"  > </li>
+             <li data-coords="11,3"   ></li>
+             <li data-coords="15,3" data-labeltext="Diamond" data-marker="" data-labelPos="E"> </li>
         </ul>
 
         <ul data-color="#6f72ad" data-label="Superbitcoin">
-             <li data-coords="12,0.77" > </li>
-             <li data-coords="12.9,2" data-dir="E" data-marker="station" > </li>
-             <li data-coords="15,2" data-marker="" data-labelPos="E"><a href=""> Superbitcoin</a></li>
+             <li data-coords="12,0.77" ></li>
+             <li data-coords="12.9,2" data-dir="E" ></li>
+             <li data-coords="15,2" data-marker="" data-labeltext="Superbitcoin" data-labelPos="E"> </li>
         </ul>
 
         <ul data-color="#7fcdd2" data-label="Clashic">
              <li data-coords="3,0.77" > </li> <!-- marker-only node, moved up by 0.20 -->
-             <li data-coords="5.5,6" >Clashic</li>
-             <li data-coords="8,6"  data-marker="station" data-labelPos="N">504032</li>
-             <li data-coords="15,6" data-marker="" data-labelPos="E"><a href="">Clashic</a></li>
+             <li data-coords="5.5,6" data-labeltext="Clashic"></li>
+             <li data-coords="8,6"  data-marker="station" data-labeltext="504032" data-labelPos="N"> </li>
+             <li data-coords="15,6" data-marker="" data-labeltext="Clashic" data-labelPos="E"> </li>
         </ul>
 
         <ul data-color="#2db2df" data-label="Cash">
              <li data-coords="8,6" > </li> <!-- marker-only node, moved up by 0.20 -->
-             <li data-coords="9,7" data-dir="E" data-marker="station" >Cash</li>
-             <li data-coords="15,7" data-marker="" data-labelPos="E"><a href="">Cash </a></li>
+             <li data-coords="9,7" data-dir="E" data-marker="station"  > </li>
+             <li data-coords="15,7" data-marker="" data-labeltext="Cash" data-labelPos="E"> </li>
         </ul>
 
         <ul data-color="#4fadb2" data-label="BGold">
              <li data-coords="7,0.77" > </li>
-             <li data-coords="8.5,4" data-dir="E" data-marker="station" >BGold</li>
-             <li data-coords="10,4" data-labelPos="N"> 494784</li>
-             <li data-coords="15,4" data-marker="" data-labelPos="E"><a href="">Gold</a></li>
+             <li data-coords="8.5,4" data-dir="E" ></li>
+             <li data-coords="10,4" data-labeltext="494784" data-labelPos="N"> </li>
+             <li data-coords="15,4" data-marker="" data-labeltext="Gold" data-labelPos="E"> </li>
         </ul>
 
         <ul data-color="#226fad" data-label="2x">
              <li data-coords="10,4" > </li>
-             <li data-coords="11,5" data-dir="E" data-marker="station" > </li>
-             <li data-coords="15,5" data-marker="" data-labelPos="E"><a href="">2X </a></li>
+             <li data-coords="11,5" data-dir="E"  ></li>
+             <li data-coords="15,5" data-marker="" data-labeltext="2X" data-labelPos="E"> </li>
         </ul>
-    </div>
-    <script type="text/javascript">
-        $(".subway-map").subwayMap({ debug: false });
-    </script>
+</div>
+<script type="text/javascript">
+    $(".subway-map").subwayMap({ debug: false });
+</script>
 
 
 <table>
     <thead>
         <th>Name</th>
+        <th>Fork from</th>
         <th>Fork height</th>
-        <th>Replay protection</th>
+        <th>Replay protection (Bitcoin)</th>
+        <th>Replay protection (fork parent)</th>
         <th>Segwit</th>
     </thead>
     <tbody>
@@ -183,77 +185,122 @@
         
         
         <tr>
-            <td><b><a href="/chainsplit-www/es/forks/clashic.html">Clashic</a></b></td>
-            <td>478559</td>
-            <td>
-                 <i class="fa fa-minus-circle red" aria-label="No replay protection"></i> 
+            <td data-label="Name"><b><a href="/chainsplit-www/es/forks/clashic.html">Clashic</a></b></td>
+            <td data-label="Fork from">Bitcoin</td>
+            <td data-label="Fork height">478559</td>
+            <td data-label="RP (Bitcoin)">
+                
+                  <i class="fa fa-check-square olive" aria-label="Has replay protection"></i>
+                
             </td>
-            <td> <i class="fa fa-minus-circle red" aria-label="No segwit"></i> </td>
+            <td data-label="RP (fork parent)">
+                
+                  <i class="fa fa-check-square olive" aria-label="Has replay protection"></i>
+                
+            </td>
+            <td data-label="Segwit"> <i class="fa fa-minus-circle red" aria-label="No segwit"></i> </td>
         </tr>
         
         
         
         <tr>
-            <td><b><a href="/chainsplit-www/es/forks/gold.html">Gold</a></b></td>
-            <td>491407</td>
-            <td>
-                 <i class="fa fa-check-square olive" aria-label="Has replay protection"></i> sighash_forkid 
+            <td data-label="Name"><b><a href="/chainsplit-www/es/forks/gold.html">Gold</a></b></td>
+            <td data-label="Fork from">Bitcoin</td>
+            <td data-label="Fork height">491407</td>
+            <td data-label="RP (Bitcoin)">
+                
+                  <i class="fa fa-check-square olive" aria-label="Has replay protection"></i>
+                
             </td>
-            <td> <i class="fa fa-check-square olive" aria-label="Has segwit"></i>  </td>
+            <td data-label="RP (fork parent)">
+                
+                  <i class="fa fa-check-square olive" aria-label="Has replay protection"></i>
+                
+            </td>
+            <td data-label="Segwit"> <i class="fa fa-check-square olive" aria-label="Has segwit"></i>  </td>
         </tr>
         
         
         
         <tr>
-            <td><b><a href="/chainsplit-www/es/forks/cash.html">Cash</a></b></td>
-            <td>504032</td>
-            <td>
-                 <i class="fa fa-check-square olive" aria-label="Has replay protection"></i> sighash_forkid 
+            <td data-label="Name"><b><a href="/chainsplit-www/es/forks/cash.html">Cash</a></b></td>
+            <td data-label="Fork from">Clashic</td>
+            <td data-label="Fork height">504032</td>
+            <td data-label="RP (Bitcoin)">
+                
+                  <i class="fa fa-check-square olive" aria-label="Has replay protection"></i>
+                
             </td>
-            <td> <i class="fa fa-minus-circle red" aria-label="No segwit"></i> </td>
+            <td data-label="RP (fork parent)">
+                
+                  <i class="fa fa-minus-circle red" aria-label="No replay protection"></i>
+                
+            </td>
+            <td data-label="Segwit"> <i class="fa fa-minus-circle red" aria-label="No segwit"></i> </td>
         </tr>
         
         
         
         <tr>
-            <td><b><a href="/chainsplit-www/es/forks/2x.html">2X</a></b></td>
-            <td>494784</td>
-            <td>
-                 <i class="fa fa-minus-circle red" aria-label="No replay protection"></i> 
+            <td data-label="Name"><b><a href="/chainsplit-www/es/forks/2x.html">2X</a></b></td>
+            <td data-label="Fork from">Gold</td>
+            <td data-label="Fork height">494784</td>
+            <td data-label="RP (Bitcoin)">
+                
+                  <i class="fa fa-check-square olive" aria-label="Has replay protection"></i>
+                
             </td>
-            <td> <i class="fa fa-minus-circle red" aria-label="No segwit"></i> </td>
+            <td data-label="RP (fork parent)">
+                
+                  <i class="fa fa-minus-circle red" aria-label="No replay protection"></i>
+                
+            </td>
+            <td data-label="Segwit"> <i class="fa fa-check-square olive" aria-label="Has segwit"></i>  </td>
         </tr>
         
         
         
         <tr>
-            <td><b><a href="/chainsplit-www/es/forks/diamond.html">Diamond</a></b></td>
-            <td>495866</td>
-            <td>
-                 <i class="fa fa-minus-circle red" aria-label="No replay protection"></i> 
+            <td data-label="Name"><b><a href="/chainsplit-www/es/forks/diamond.html">Diamond</a></b></td>
+            <td data-label="Fork from">Bitcoin</td>
+            <td data-label="Fork height">495866</td>
+            <td data-label="RP (Bitcoin)">
+                
+                  <i class="fa fa-minus-circle red" aria-label="No replay protection"></i>
+                
             </td>
-            <td> <i class="fa fa-check-square olive" aria-label="Has segwit"></i>  </td>
+            <td data-label="RP (fork parent)">
+                
+                  <i class="fa fa-minus-circle red" aria-label="No replay protection"></i>
+                
+            </td>
+            <td data-label="Segwit"> <i class="fa fa-check-square olive" aria-label="Has segwit"></i>  </td>
         </tr>
         
         
         
         <tr>
-            <td><b><a href="/chainsplit-www/es/forks/superbitcoin.html">SuperBitcoin</a></b></td>
-            <td>498888</td>
-            <td>
-                 <i class="fa fa-minus-circle red" aria-label="No replay protection"></i> 
+            <td data-label="Name"><b><a href="/chainsplit-www/es/forks/superbitcoin.html">SuperBitcoin</a></b></td>
+            <td data-label="Fork from">Bitcoin</td>
+            <td data-label="Fork height">498888</td>
+            <td data-label="RP (Bitcoin)">
+                
+                  <i class="fa fa-minus-circle red" aria-label="No replay protection"></i>
+                
             </td>
-            <td> <i class="fa fa-check-square olive" aria-label="Has segwit"></i>  </td>
+            <td data-label="RP (fork parent)">
+                
+                  <i class="fa fa-minus-circle red" aria-label="No replay protection"></i>
+                
+            </td>
+            <td data-label="Segwit"> <i class="fa fa-check-square olive" aria-label="Has segwit"></i>  </td>
         </tr>
         
         
     </tbody>
 </table>
 
-<hr >
-
-
-
+<p>Disclaimer: We do not endorse any forks. Instead, we provide known information about them that is subject to change as we continue to learn more.</p>
 
 
       </main>

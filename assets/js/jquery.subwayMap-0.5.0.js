@@ -61,7 +61,8 @@ THE SOFTWARE.
     },
     _getCanvasLayer: function (el, overlay) {
         this.layer++;
-        var canvas = $("<canvas style='position:absolute;z-Index:" + ((overlay ? 2000 : 1000) + this.layer) + "' width='" + this.options.pixelWidth + "' height='" + this.options.pixelHeight + "'></canvas>");
+        var canvaswidth = this.options.pixelWidth +40 ;
+        var canvas = $("<canvas style='position:absolute;z-Index:" + ((overlay ? 2000 : 1000) + this.layer) + "' width='" + canvaswidth  + "' height='" + this.options.pixelHeight + "'></canvas>");
         el.append(canvas);
         return (canvas[0].getContext("2d"));
     },
@@ -170,7 +171,10 @@ THE SOFTWARE.
 
                     var markerInfo = $(this).attr("data-markerInfo");
                     if (markerInfo == undefined) markerInfo = "";
-                    
+
+                    var labeltext = $(this).attr("data-labeltext");
+                    if (labeltext == undefined)  labeltext = "";
+
                     var dotted = $(this).attr("data-dotted-line");
                     if (dotted == undefined) dotted = "false";
                     
@@ -195,7 +199,7 @@ THE SOFTWARE.
                         x = Number(coords.split(",")[0]) + (marker.indexOf("interchange") > -1 ? 0 : shiftX);
                         y = Number(coords.split(",")[1]) + (marker.indexOf("interchange") > -1 ? 0 : shiftY);
                     }
-                    nodes[nodes.length] = { x: x, y: y, direction: dir, marker: marker, markerInfo: markerInfo, link: link, title: title, label: label, labelPos: labelPos, dotted: dotted };
+                    nodes[nodes.length] = { x: x, y: y, direction: dir, marker: marker, markerInfo: markerInfo, link: link, title: title, label: label, labelPos: labelPos, dotted: dotted, labeltext: labeltext };
                 });
                 if (nodes.length > 0)
                     self._drawLine(el, scale, rows, columns, color, (lineTextClass != "" ? lineTextClass : textClass), lineWidth, nodes, reverseMarkers);
@@ -359,13 +363,23 @@ THE SOFTWARE.
                     else
                         ctx.arc(x, y, width * 0.7, 0, Math.PI * 2, true);
                 }
+
                 break;
             case "station":
             case "@station":
                 ctx.lineWidth = width/2;
                 ctx.arc(x, y, width/2, 0, Math.PI * 2, true);
                 break;
+
+
         }
+        if (data.labeltext !== ""){
+            ctx.font = " 15px sans-serif";
+            ctx.fillStyle = '#111';
+            ctx.fillText(data.labeltext, x -6  ,y -12);
+        }
+        ctx.fillStyle = bgColor; // reset color
+
         ctx.closePath();
         ctx.stroke();
         ctx.fill();
@@ -412,7 +426,9 @@ THE SOFTWARE.
         if (data.link != "")
             $("<a " + style + " title='" + data.title.replace(/\\n/g,"<br />") + "' href='" + data.link + "' target='_new'>" + data.label.replace(/\\n/g,"<br />") + "</span>").appendTo(el);
         else
-            $("<span " + style + ">" + data.label.replace(/\\n/g,"<br />") + "</span>").appendTo(el);
+            //$("<span " + style + ">" + data.label.replace(/\\n/g,"<br />") + "</span>").appendTo(el);
+            //$("<canvas><>")
+            console.log();
 
     },
     _drawGrid: function (el, scale, gridNumbers) {
