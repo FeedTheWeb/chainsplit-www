@@ -11,7 +11,6 @@
 
   <link rel="canonical" href="http://chainspl.it/chainsplit-www/es/">
   <link rel="alternate" type="application/rss+xml" title="chainspl.it" href="/chainsplit-www/es/feed.xml">
-  <!-- <link href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet"> -->
 
   <link href="https://unpkg.com/ace-css/css/ace.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -22,9 +21,13 @@
     .subway-map
     {
         margin: 0;
-        width: 720px;
-        height:380px;
+        width:500px;
+        height:320px;
         background-color: white;
+        background-image: url("/assets/img/logo_bw_wm.jpg") ;
+        background-repeat: no-repeat;
+        background-position: 70px ;
+        background-size: 300px;
     }
 
     /* Text labels */
@@ -43,11 +46,10 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="/chainsplit-www/assets/js/lang.js"></script>
-  <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.0.min.js"></script>
-  <script type="text/javascript" src="/chainsplit-www/assets/js/jquery.subwayMap-0.5.0.js"></script>
+  <script type="text/javascript" src="/chainsplit-www/assets/js/jquery.subwayMap-0.5.1.js"></script>
+
   
 </head>
-
 
   <body>
 
@@ -112,65 +114,64 @@
   <h1 class="post-title">Bitcoin Forks</h1>
 </header>
 
-<p>A overview of Bitcoin hard forks, including forks-of-forks.</p>
+<p>An overview of Bitcoin hard forks, including forks-of-forks.</p>
 
 <hr >
+<div class="mxn2 flex flex-wrap">
+    <div class="md-col-8  ">
+        <div class="subway-map" style="display: none;position:relative;" data-columns="15" data-rows="8" data-cellSize="40" data-legendId="legend" data-textClass="text" data-gridNumbers="true" data-grid="false" data-lineWidth="8">
+            <ul data-color="#1f78b1" data-label="Bitcoin" data-shiftCoords="0,-1" >
+                <li data-coords="0.77,1"  data-labeltext="Bitcoin"> </li>
+                <li data-coords="0.77,0.77" data-marker="@interchange" > </li> <!-- marker-only node, moved up by 0.10 -->
+                <li data-coords="5,1"data-labeltext="segwit" > </li>
+                <li data-coords="15,1"  data-marker="" data-labelPos="E"> <a href="#" > Bitcoin</a></li>
+            </ul>
 
-<div class="subway-map" style="display: none" data-columns="16" data-rows="10" data-cellSize="40" data-legendId="legend" data-textClass="text" data-gridNumbers="true" data-grid="false" data-lineWidth="10">
-        <ul data-color="#1f78b1" data-label="Bitcoin" data-shiftCoords="0,-1" >
-            <li data-coords="0.77,1"  data-labeltext="Bitcoin"> </li>
-            <li data-coords="0.77,0.77" data-marker="@interchange" > </li> <!-- marker-only node, moved up by 0.10 -->
-            <li data-coords="3,1"  data-labeltext="478559" data-marker="@station" > </li>
-            <li data-coords="4.5,1"data-labeltext="segwit" > </li>
-            <li data-coords="7,1"  data-labeltext="491407" > </li>
-            <li data-coords="10,1" data-labeltext="495866" > </li>
-            <li data-coords="12,1" data-labeltext="498888" > </li>
-            <li data-coords="15,1" data-labeltext="Bitcoin" data-marker=""> </li>
-        </ul>
+            <ul data-color="#9fcde2" style="position:absolute;" data-labeltext="Diamond" data-label="Diamond">
+                 <li data-coords="9,0.77" data-labeltext="495866" > </li>
+                 <li data-coords="10,3" ></li>
+                 <li data-coords="15,3"  data-marker="" data-labelPos="E"><a href="/forks/diamond.html" > Diamond </a> </li>
+            </ul>
 
-        <ul data-color="#9fada2" data-labeltext="Diamond" data-label="Diamond">
-             <li data-coords="10,0.77" > </li>
-             <li data-coords="11,3" ></li>
-             <li data-coords="15,3" data-labeltext="Diamond" data-marker="" data-labelPos="E"> </li>
-        </ul>
+            <ul data-color="#5f9dc2" data-label="Superbitcoin">
+                 <li data-coords="11,0.77" data-labeltext="498888" > </li>
+                 <li data-coords="11.9,2" data-dir="E" ></li>
+                 <li data-coords="15,2" data-marker=""  data-labelPos="E"> <a href="/forks/superbitcoin.html" > Superbitcoin</a> </li>
+            </ul>
 
-        <ul data-color="#6f72ad" data-label="Superbitcoin">
-             <li data-coords="12,0.77" ></li>
-             <li data-coords="12.9,2" data-dir="E" ></li>
-             <li data-coords="15,2" data-marker="" data-labeltext="Superbitcoin" data-labelPos="E"> </li>
-        </ul>
+            <ul data-color="#7fbdd2" data-label="Clashic">
+                 <li data-coords="3,0.77" data-labeltext="478559">
+                 <li data-coords="5.5,6" data-labeltext="Clashic"></li>
+                 <li data-coords="15,6" data-marker=""  data-labelPos="E"> <a href="/forks/clashic.html" > Clashic</a></li>
+            </ul>
 
-        <ul data-color="#7fcdd2" data-label="Clashic">
-             <li data-coords="3,0.77" > </li> <!-- marker-only node, moved up by 0.20 -->
-             <li data-coords="5.5,6" data-labeltext="Clashic"></li>
-             <li data-coords="8,6"  data-marker="station" data-labeltext="504032" data-labelPos="N"> </li>
-             <li data-coords="15,6" data-marker="" data-labeltext="Clashic" data-labelPos="E"> </li>
-        </ul>
+            <ul data-color="#5f9db2" data-label="BGold">
+                 <li data-coords="7,0.77" data-labeltext="491407" > </li>
+                 <li data-coords="8.5,4" data-dir="E" ></li>
+                 <li data-coords="15,4" data-marker=""  data-labelPos="E"> <a href="/forks/gold.html" > Gold</a></li>
+            </ul>
 
-        <ul data-color="#2db2df" data-label="Cash">
-             <li data-coords="8,6" > </li> <!-- marker-only node, moved up by 0.20 -->
-             <li data-coords="9,7" data-dir="E" ></li>
-             <li data-coords="15,7" data-marker="" data-labeltext="Cash" data-labelPos="E"> </li>
-        </ul>
+            <ul data-color="#429fbd" data-label="2x">
+                 <li data-coords="10,4" data-labeltext="494784" > </li>
+                 <li data-coords="11,5" data-dir="E"  ></li>
+                 <li data-coords="15,5" data-marker=""  data-labelPos="E"> <a href="/forks/2x.html" > 2X</a> </li>
+            </ul>
 
-        <ul data-color="#4fadb2" data-label="BGold">
-             <li data-coords="7,0.77" > </li>
-             <li data-coords="8.5,4" data-dir="E" ></li>
-             <li data-coords="10,4" data-labeltext="494784" data-labelPos="N"> </li>
-             <li data-coords="15,4" data-marker="" data-labeltext="Gold" data-labelPos="E"> </li>
-        </ul>
+            <ul data-color="#5f9dc2" data-label="Cash">
+                 <li data-coords="12,6" data-marker="station" data-labeltext="504032" > </li>
+                 <li data-coords="13,7" data-dir="E" ></li>
+                 <li data-coords="15,7" data-marker=""  data-labelPos="E" ><a href="/forks/cash.html" > Cash</a> </li>
+            </ul>
+        </div>
 
-        <ul data-color="#226fad" data-label="2x">
-             <li data-coords="10,4" > </li>
-             <li data-coords="11,5" data-dir="E"  ></li>
-             <li data-coords="15,5" data-marker="" data-labeltext="2X" data-labelPos="E"> </li>
-        </ul>
+        <script type="text/javascript">
+            $(".subway-map").subwayMap({ debug: false });
+            $(".subway-map").show();
+        </script>
+        <img class="subway-img" style="display:none;" src="/chainsplit-www/assets/img/fork_img.png">
+    </div>
+
 </div>
-<script type="text/javascript">
-    $(".subway-map").subwayMap({ debug: false });
-    $(".subway-map").show();
-</script>
-
 
 <table>
     <thead>
@@ -303,7 +304,6 @@
 
 <p><i>Disclaimer: We do not endorse any forks. Instead, we provide known information about them that is subject to change as we continue to learn more.</i></p>
 
-<br />
 <br />
       </main>
 

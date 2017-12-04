@@ -1,4 +1,4 @@
-﻿/*
+/*
 
 Copyright (c) 2010 Nik Kalyani nik@kalyani.com http://www.kalyani.com
 
@@ -61,8 +61,9 @@ THE SOFTWARE.
     },
     _getCanvasLayer: function (el, overlay) {
         this.layer++;
-        var canvaswidth = this.options.pixelWidth +40 ;
-        var canvas = $("<canvas style='position:absolute;z-Index:" + ((overlay ? 2000 : 1000) + this.layer) + "' width='" + canvaswidth  + "' height='" + this.options.pixelHeight + "'></canvas>");
+        var canvasWidth = this.options.pixelWidth +100;
+        var canvas = $("<canvas style='position:absolute;z-Index:" + ((overlay ? 2000 : 1000) + this.layer) + "' width='" + canvasWidth + "' height='" + this.options.pixelHeight + "'></canvas>");
+        //var canvas = $("<canvas style='position:absolute;z-Index:" + ((overlay ? 2000 : 1000) + this.layer) + "' width='" + canvaswidth  + "' height='" + this.options.pixelHeight + "'></canvas>");
         el.append(canvas);
         return (canvas[0].getContext("2d"));
     },
@@ -89,7 +90,7 @@ THE SOFTWARE.
 
         var lineWidth = el.attr("data-lineWidth");
         if (lineWidth === undefined)
-            lineWidth = 6;
+            lineWidth = 10;
         else
             lineWidth = parseInt(lineWidth);
 
@@ -177,7 +178,7 @@ THE SOFTWARE.
 
                     var dotted = $(this).attr("data-dotted-line");
                     if (dotted == undefined) dotted = "false";
-                    
+
                     var anchor = $(this).children("a:first-child");
                     var label = $(this).text();
                     if (label === undefined) label = "";
@@ -324,8 +325,8 @@ THE SOFTWARE.
         var y = data.y * scale;
 
         // Keep it simple -- black on white, or white on black
-        var fgColor = "#000";
-        var bgColor = "#fff";
+        var fgColor = "#000000";
+        var bgColor = "#ffffff";
         if (reverseMarkers)
         {
             fgColor = "#ffffff";
@@ -363,16 +364,14 @@ THE SOFTWARE.
                     else
                         ctx.arc(x, y, width * 0.7, 0, Math.PI * 2, true);
                 }
-
                 break;
             case "station":
             case "@station":
                 ctx.lineWidth = width/2;
                 ctx.arc(x, y, width/2, 0, Math.PI * 2, true);
                 break;
-
-
         }
+        // labels on canvas
         if (data.labeltext !== ""){
             ctx.font = '300 14px/1.5 "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif';
             ctx.fillStyle = '#111';
@@ -421,10 +420,10 @@ THE SOFTWARE.
                 topOffset = offset;
                 break;
         }
-        var style = (textClass != "" ? "class='" + textClass + "' " : "") + "style='" + (textClass == "" ? "font-size:8pt;font-family:Verdana,Arial,Helvetica,Sans Serif;text-decoration:none;" : "") + "width:100px;" + (pos != "" ? pos : "") + ";position:absolute;top:" + (y + el.offset().top - (topOffset > 0 ? topOffset : 0)) + "px;left:" + (x + el.offset().left) + "px;z-index:3000;'";
-        if (data.link != "")
+        var style = (textClass != "" ? "class='" + textClass + "' " : "") + "style='" + (textClass == "" ? "font-size:8pt;font-family:Verdana,Arial,Helvetica,Sans Serif;text-decoration:none;" : "") + "width:100px;" + (pos != "" ? pos : "") + ";position:absolute;top:" + (y + el.offset().top - (topOffset > 0 ? topOffset : 0) ) + "px;left:" + (x + el.offset().left ) + "px;z-index:3000;'";
+        if (data.link != ""){
             $("<a " + style + " title='" + data.title.replace(/\\n/g,"<br />") + "' href='" + data.link + "' target='_new'>" + data.label.replace(/\\n/g,"<br />") + "</span>").appendTo(el);
-        else
+        } else
             $("<span " + style + ">" + data.label.replace(/\\n/g,"<br />") + "</span>").appendTo(el);
 
     },
