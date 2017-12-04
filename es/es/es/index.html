@@ -166,19 +166,7 @@
 
         <script type="text/javascript">
             $(".subway-map").subwayMap({ debug: false });
-
-            $(window).width(function(){
-                if($(window).width() > 600){
-                    $(".subway-map").show();
-                }
-            })
-            $(window).resize(function(){
-                if($(window).width() > 600){
-                    $(".subway-map").show();
-                } else {
-                    $(".subway-map").hide();
-                    }
-            })
+            $(".subway-map").show();
         </script>
         <img class="subway-img" style="display:none;" src="/chainsplit-www/assets/img/fork_img.png">
     </div>
